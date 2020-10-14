@@ -19,7 +19,7 @@
 @activity1_4
 Feature: Using Examples table to post a job
 
-Scenario: Rewrite activity 3 using a Scenario Outline and Examples table to post a job 
+Scenario Outline: Rewrite activity 3 using a Scenario Outline and Examples table to post a job 
     Given Open browser with Alchemy Jobs site
     When Go to Post a Job page
     Then Enter the "<email>", "<jobTitle>", "<location>", "<description>", "<applicationEmail>", "<companyName>" details and click on the Preview button
